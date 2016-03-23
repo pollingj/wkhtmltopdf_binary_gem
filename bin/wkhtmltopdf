@@ -11,7 +11,8 @@ require 'rbconfig'
 
 suffix = case RbConfig::CONFIG['host']
 when /x86_64.*linux/
-  'linux_amd64'
+#  'linux_amd64'
+  'linux_x86'
 when /linux/
   'linux_x86'
 when /darwin/
